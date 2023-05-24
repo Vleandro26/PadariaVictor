@@ -1,0 +1,85 @@
+*{
+    Margin :0;
+    padding:0;
+    vertical-align:baseline;
+    list-style:none; 
+    font-family: 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    background-color: rgb(85, 48, 6);
+    overflow: hidden;
+    line-height: 200px;
+    max-height: 200px;
+}
+
+header > h1{/*Selecionar aqui a cor da letra do nosso H1 ou seja, do nosso título*/
+    color: white;/*Chamamos a propiedade color e definimos uma cor em questão*/
+    }
+    
+    header > img{/*Aqui estamos chamando nossa imagem para ser atribuidas alterações*/
+        width: 150px;/*Largura da nossa imagem*/
+        height: 125px;/*Tamanho da nossa imagem*/
+    }
+    
+    #menu-header{/*Nosso menu de navegação*/
+    display: flex;/*Responsável por colocar os itens na mesma linha(lado a lado)*/
+    align-items: center;/*Alinhar os itens o nosso Header para o centro*/
+    }
+        #list-menu{/*Nesta lista não ordenada, aqui mudaremos diretamente nossa lista*/
+            display: flex;/*Reponsável por colocar os itens na mesma linha(Lado a lado)*/
+            margin-right: 1rem ;/*Margem da direita. REM equivale a 16px, ou seja podemos usa-lo para dacilitar a inserção de px*/
+        }
+        
+     .item-menu-header {/*Nossas li que estão dentro do LIST MENU onde se encontram os nomes dos itens */
+               margin-right: 25px;/*Margem da direita*/
+            }
+    
+     .item-menu-header> a:hover {/*Nossas que estão dentro do LIST MENU. nossa tag de link*/
+              color: yellow;
+              transition: 0.6s;/* É o tempo em que será exibido ao passar o cursor*/
+            }
+    
+            .item-menu-header > a {/*Nossas que estão dentro do LIST MENU. nossa tag de link*/
+                color: white;
+                text-decoration: none;/*Tirar o sublinhado visivel*/
+                font-size: 12px;
+            }
+            
+            #btn-header{/*Nossa id do Botão de login*/
+                display: flex;/*Responsável por colocar os itens na mesma linha (lado a lado)*/
+            }
+    
+            #btn-header > button{ /*Aqui chamamos nosso ID e onde queremos fazer alterções, no caso o nos*/
+               padding: 8px;/*Cuida do preenchimento*/
+               background-color: transparent;/*Aqui deixamos o fundo do Botão transparente,ou seja sem cor */
+               border:none;/*none é usado para retirar algo,nesse caso a borda*/
+            }
+    
+            #btn-header> button> a{/*Estamos chamando aqui nossa TAG de link para alteração*/
+               display: flex;/*Responsável por colocar os itens na mesma linha (lado a lado)*/
+               align-items: center;/*Alinhar os itens para o centro*/
+            }
+    
+            #btn-header>button>a>img{/*Aqui estamos mexendo no ICON do botão*/
+                width: 30px;/*Largura*/
+                height: 30px;/*Tamanho*/
+                margin-right: 2px;/*Margem da direita*/
+            }
+            
+            #img-destaque{/* Aqui chamamos a ID que chamamos mo HTML*/
+                padding: 260px;/*Cuida do preenchimento*/
+                background-image: url(img/padaria.webp);/*usada pra inserir do preenchimento*/
+                background-position: center;
+            }
+             
+            .img-div{
+                padding: 25px;/*Cuida do preenchimento*/
+                background-image: url(img/img-div.jpg);/*usada pra inserir do preenchimento*/
+                background-position: center;/*Centralizar nossa imagem*/
+                background-size: auto;/**/
+            }
