@@ -47,7 +47,7 @@ header > h1{/*Selecionar aqui a cor da letra do nosso H1 ou seja, do nosso títu
             .item-menu-header > a {/*Nossas que estão dentro do LIST MENU. nossa tag de link*/
                 color: white;
                 text-decoration: none;/*Tirar o sublinhado visivel*/
-                font-size: 12px;
+                font-size: 25px;
             }
             
             #btn-header{/*Nossa id do Botão de login*/
@@ -66,8 +66,8 @@ header > h1{/*Selecionar aqui a cor da letra do nosso H1 ou seja, do nosso títu
             }
     
             #btn-header>button>a>img{/*Aqui estamos mexendo no ICON do botão*/
-                width: 30px;/*Largura*/
-                height: 30px;/*Tamanho*/
+                width: 50px;/*Largura*/
+                height: 50px;/*Tamanho*/
                 margin-right: 2px;/*Margem da direita*/
             }
             
@@ -81,5 +81,58 @@ header > h1{/*Selecionar aqui a cor da letra do nosso H1 ou seja, do nosso títu
                 padding: 25px;/*Cuida do preenchimento*/
                 background-image: url(img/img-div.jpg);/*usada pra inserir do preenchimento*/
                 background-position: center;/*Centralizar nossa imagem*/
-                background-size: auto;/**/
+                background-size: auto;/*Especifica o tamanho das imagens*/
             }
+
+            main> section > h2{
+                margin-top: 0%;
+                font-size: 36px;/*Tamanho da letra*/
+                text-align: center;/*Alinhando o texto para o centro*/
+                color: black;/*Cor da letra do nosso H2*/
+            }
+
+            #clients{/*Aqui chamamos nosso ID da section*/
+                background-color: white;/*Cor de fundo da nossa section*/
+                margin-top: 0px;/**/
+                padding: 50px;/*Cuida do preenchimento*/
+            }
+
+            .line{/*Aqui Chamamos nossa class que está dentro do nosso HR, que é utilizada como uma quebra de linha temática entre elementos HTML*/
+                margin: 0 auto;/*Definimos em 0 a margin e colocamos o mesmo para o mesmo para auto para que recaia para o todo*/
+                width: 20%;/*Largura*/
+            }
+
+            #clients-list{/*Aqui chamamos a nossa id*/
+                display: flex;/*Responsável por colocar os itens na mesma linha*/
+                align-items: center;/*Alinhar os itens para o centro*/
+                justify-content: space-evenly;/*Tradução: justicar-conteúdo:espaço uniformemente. Alinhar os itens igualmento dentro da página*/
+                margin-top: 30px;/*Indica o espaço acima do elemento/ superior*/
+            }
+
+                .clients-item{/*Aqui chamamos nossa class que está da nossa ID*/
+                    display:flex;/*Responsável por colocar os itens na mesma linha*/
+                    justify-content: center;/*Justificar-conteúdo no centro*/
+                    align-items: center;/*Alinhar os itens para o centro*/
+                    flex-direction: column;/**/
+                }
+
+                .clients-item > img{/*Aqui chamamos nossa TAG IMG para estilização*/
+                    width: 84px;/*Tamanho*/
+                    height: 84px;/*Largura*/
+                }
+
+                .clients-item> h3{/*Aqui chamamos nosso h3 para estilizar*/
+                    font-family: 'Dancing Script', cursive;/*Fonte desconhecida*/
+                    font-size: 26px;/*Tamanho*/
+                    margin-top: 10px;/*Alinha os itens para o centro*/
+                    align-items: center;/*Indica o espaço acima do elemento/superior*/
+                    margin-top: 10px;
+                }
+
+                .clients-item> p{
+                    font-family:'Dancing Script', cursive;
+                    font-size: 26px;
+                    margin-top: 10px;
+                    align-items: center;
+
+                }
