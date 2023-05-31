@@ -167,3 +167,78 @@ header > h1{/*Selecionar aqui a cor da letra do nosso H1 ou seja, do nosso títu
                     font-size: 20px;/*Tamanho da letra*/
                     color: red;/*Cor da letra*/
                 }
+
+                #featured-products> a:hover{/*Aqui estamos chamando novamente nossa TAG de link para colocar*/
+                    text-decoration: underline;/*Aqui chamamos o text decoration para colocar uma decoração ao*/
+                    font-size: 22px;/*Tamanho da letra ao passar o cursor em cima*/
+                    transition: 1;/*O tempo que será realizado esta ação*/
+                }
+
+
+                #sobre-nos{/*Chamamos aqui noosa ID*/
+                    background-image: url(img/fundo-sobre-nos.jpg);/*Usado para inserir a imagem do fundo*/
+                    background-repeat: underline;/*Aqui colocamos a função para a imagem não seja repetida*/
+                    background-attachment: fixed;/**/
+                    background-position: center;/*Na posição da imagem colocamos ao centro*/
+                    background-size: cover;/**/
+                    padding: 120px;/*Preenchimento*/
+                }
+
+
+                #sobre-nos> h3 {/**/
+                    color:white;/**/
+                    font-size:64px;/**/
+                    text-align: center;/**/
+                    font-family: 'Ubunto', 'sans-serif';/**/
+                }
+                 
+                #sobre-nos > p {
+                    font-family: 'Ubunto', 'sans-Serif';
+                    font-weight: 500;/**/
+                    color: white;
+                    font-size: 22px;
+                    margin-top:  2em; 
+                    text-align: left;
+                }
+
+                footer{
+                    padding: 80px;
+                    background-image: url(img/img-footer.jpg);
+                    background-position: bottom ;
+                    background-repeat:  no-repeat;
+                }
+                 footer > ul{
+                    display: flex;
+                    justify-content: space-evenly;
+                 }
+
+                 footer > h2{
+                    color: black;
+                    font-size:40px;
+                    font-weight: bold;
+                    text-align: center;
+                    margin-bottom: 1em;
+
+                 }
+
+                 .item-menu-footer{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 30px;
+                 }
+
+                 .item-menu-footer > img{
+                    width: 34px;
+                    height: 34px;
+                 }
+
+                 .item-menu-footer > p {
+                    color: black; 
+                    font-size: 24px; 
+                    font-weight: bold; 
+                     text-align: center ;
+                     margin-bottom: 30px;
+
+                 }
+
+                 
