@@ -175,7 +175,7 @@ header > h1{/*Selecionar aqui a cor da letra do nosso H1 ou seja, do nosso títu
                 }
 
 
-                #sobre-nos{/*Chamamos aqui noosa ID*/
+                #sobre{/*Chamamos aqui noosa ID*/
                     background-image: url(img/fundo-sobre-nos.jpg);/*Usado para inserir a imagem do fundo*/
                     background-repeat: underline;/*Aqui colocamos a função para a imagem não seja repetida*/
                     background-attachment: fixed;/**/
@@ -185,14 +185,14 @@ header > h1{/*Selecionar aqui a cor da letra do nosso H1 ou seja, do nosso títu
                 }
 
 
-                #sobre-nos> h3 {/**/
+                #sobre> h3 {/**/
                     color:white;/**/
                     font-size:64px;/**/
                     text-align: center;/**/
                     font-family: 'Ubunto', 'sans-serif';/**/
                 }
                  
-                #sobre-nos > p {
+                #sobre > p {
                     font-family: 'Ubunto', 'sans-Serif';
                     font-weight: 500;/**/
                     color: white;

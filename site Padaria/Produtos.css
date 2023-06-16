@@ -1,0 +1,144 @@
+*{
+    Margin :0;
+    padding:0;
+    vertical-align:baseline;
+    list-style:none; 
+    font-family: 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    background-color: rgb(85, 48, 6);
+    overflow: hidden;
+    line-height: 200px;
+    max-height: 200px;
+}
+
+header > h1{/*Selecionar aqui a cor da letra do nosso H1 ou seja, do nosso título*/
+    color: white;/*Chamamos a propiedade color e definimos uma cor em questão*/
+    }
+    
+    header > img{/*Aqui estamos chamando nossa imagem para ser atribuidas alterações*/
+        width: 150px;/*Largura da nossa imagem*/
+        height: 125px;/*Tamanho da nossa imagem*/
+    }
+    
+    #menu-header{/*Nosso menu de navegação*/
+    display: flex;/*Responsável por colocar os itens na mesma linha(lado a lado)*/
+    align-items: center;/*Alinhar os itens o nosso Header para o centro*/
+    }
+        #list-menu{/*Nesta lista não ordenada, aqui mudaremos diretamente nossa lista*/
+            display: flex;/*Reponsável por colocar os itens na mesma linha(Lado a lado)*/
+            margin-right: 1rem ;/*Margem da direita. REM equivale a 16px, ou seja podemos usa-lo para dacilitar a inserção de px*/
+        }
+        
+     .item-menu-header {/*Nossas li que estão dentro do LIST MENU onde se encontram os nomes dos itens */
+               margin-right: 25px;/*Margem da direita*/
+            }
+    
+     .item-menu-header> a:hover {/*Nossas que estão dentro do LIST MENU. nossa tag de link*/
+              color: yellow;
+              transition: 0.6s;/* É o tempo em que será exibido ao passar o cursor*/
+            }
+    
+            .item-menu-header > a {/*Nossas que estão dentro do LIST MENU. nossa tag de link*/
+                color: white;
+                text-decoration: none;/*Tirar o sublinhado visivel*/
+                font-size: 25px;
+            }
+            
+            #btn-header{/*Nossa id do Botão de login*/
+                display: flex;/*Responsável por colocar os itens na mesma linha (lado a lado)*/
+            }
+    
+            #btn-header > button{ /*Aqui chamamos nosso ID e onde queremos fazer alterções, no caso o nos*/
+               padding: 8px;/*Cuida do preenchimento*/
+               background-color: transparent;/*Aqui deixamos o fundo do Botão transparente,ou seja sem cor */
+               border:none;/*none é usado para retirar algo,nesse caso a borda*/
+            }
+    
+            #btn-header> button> a{/*Estamos chamando aqui nossa TAG de link para alteração*/
+               display: flex;/*Responsável por colocar os itens na mesma linha (lado a lado)*/
+               align-items: center;/*Alinhar os itens para o centro*/
+            }
+    
+            #btn-header>button>a>img{/*Aqui estamos mexendo no ICON do botão*/
+                width: 50px;/*Largura*/
+                height: 50px;/*Tamanho*/
+                margin-right: 2px;/*Margem da direita*/
+            }
+
+            
+            #featured-products{/*ID usada para a section do nossos produtos                                   */
+                background: linear-gradient(180deg,#f4CEAF 8.33%, rgba(244, 200,175,0)100%);
+                padding: 30px;/*Preenchimento*/
+            }
+
+            .products{/*Aqui chamamos nossa class dos produtos para estilização*/
+                margin-top: 3em;/*Indica chamamos nossa Class dos produtos acima do elemento*/
+                display: flex;/*Reponsável por colocar os itens na mesma linha*/
+                align-items: center;/*Alinhar os itens para o centro*/
+                justify-content: space-evenly;
+            }
+
+            .img-product{/*Class inserida nas nossas tags IMG*/
+                width: 300px;/*Largura*/
+                height: 300px;/*Tamanho*/
+                border-radius: 50px;/*Estilo arredondado das bordas*/
+            }
+
+            .title-products{/**/
+                margin-top: 10px;/*Indica o espaço acima do elemento*/
+                font-family: 'ubunto','sans-serif';/*fonte Selecionada*/
+                text-align: center;/*Alinhar texto ao centro*/
+                font-size: 22px;/*tamanho da letra*/
+            }
+
+          
+
+            
+
+            footer{
+                padding: 80px;
+                background-image: url(img/img-footer.jpg);
+                background-position: bottom ;
+                background-repeat:  no-repeat;
+            }
+             footer > ul{
+                display: flex;
+                justify-content: space-evenly;
+             }
+
+             footer > h2{
+                color: black;
+                font-size:40px;
+                font-weight: bold;
+                text-align: center;
+                margin-bottom: 1em;
+
+             }
+
+             .item-menu-footer{
+                display: flex;
+                align-items: center;
+                margin-top: 30px;
+             }
+
+             .item-menu-footer > img{
+                width: 34px;
+                height: 34px;
+             }
+
+             .item-menu-footer > p {
+                color: black; 
+                font-size: 24px; 
+                font-weight: bold; 
+                 text-align: center ;
+                 margin-bottom: 30px;
+
+             }
+
+           
