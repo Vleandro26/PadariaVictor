@@ -18,7 +18,7 @@ body{
 }
 
 .container{/*Aqui estamos chamando nossa Class*/
-    max-width: 1200;/*Atribuimos aqui um tamanho máximo de largura que essa Class irá exercer*/
+    max-width: 1280px;/*Atribuimos aqui um tamanho máximo de largura que essa Class irá exercer*/
     margin: 0 auto;/*Dizemos ao navegador que as margens superior e inferior são iguias a 0 ea da esquerda e da direita são automaticos*/
 }
 
@@ -63,8 +63,9 @@ font-size: 17px;/*Tamanho*/
 outline: 0;
 }
 
-form>.input-sigle>.input:focus ~ label, form .input-sigle .input:valid ~ label{
-    transform: translateY(-25);
+form>.input-sigle>.input:focus ~ label,
+ form .input-sigle .input:valid ~ label{
+    transform: translateY(-25px);
     font-size: 12px;
     color: black;
 }
@@ -82,4 +83,8 @@ form input[type=submit]{/*Aqui estilizamos nosso botão de enviar*/
     color: rgb(255, 255, 255);/*Cor da letra dentro do botão*/
     cursor: pointer;/*Torna o botão em algo clicável*/
 
+}
+
+.form-container{
+    opacity: 90%;
 }
