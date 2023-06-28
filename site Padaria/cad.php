@@ -15,24 +15,18 @@
      <main class="text">
         <?php 
         $nome = $_GET["nome"];
-        $Sobrenome = $_GET["sobrenome"];
+        $sobrenome = $_GET["sobrenome"];
         $tel = $_GET["tel"];
 
         echo "<p>É um prazer te conhecer, a Padaria Victor Agradece $nome
-        $Sobrenome</p>"
+        $Sobrenome</p>";
+        ?>
 
-
-
-
-
-
-
-
-
+        <button class="text-js">
+         <a href="javascript:history.go(-1)">Voltar para página anterior</a>
+      
+      </button>
      </main>
-
-
-
-    
+     
 </body>
 </html>
